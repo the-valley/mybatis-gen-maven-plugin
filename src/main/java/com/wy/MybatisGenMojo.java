@@ -232,7 +232,6 @@ public class MybatisGenMojo extends AbstractMojo {
         }
         clazz.setColumns(columnList);
         clazz.setPackageValue(entityPackage);
-//        clazz.setClassName(tableMap.get(table));
         clazz.setClassName(getEntityName(table));
         clazz.setAuthor(author);
         clazz.setTableName(table);
