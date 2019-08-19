@@ -25,8 +25,11 @@ import java.util.*;
 import static com.wy.sql.SqlTemplate.ALL_COLUMNS_INFO;
 import static com.wy.sql.SqlTemplate.ALL_TABLE_NAME;
 
+/**
+ * @author wy
+ */
 @Mojo(
-        name = "gen",
+        name = "mybatis-gen",
         defaultPhase = LifecyclePhase.GENERATE_SOURCES,
         requiresDependencyResolution = ResolutionScope.RUNTIME
 )
