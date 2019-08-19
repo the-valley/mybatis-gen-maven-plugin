@@ -35,6 +35,7 @@ Add <build> to project pom as bellow:
                     <!--生成代码分支名-->
                     <branchName>testGen</branchName>
                     <tableMap>
+                    <!--不指定实体名时，默认用表名的驼峰格式-->
                         <actor/>
                     </tableMap>
                 </configuration>
