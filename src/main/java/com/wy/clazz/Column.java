@@ -79,29 +79,32 @@ public class Column {
         if (Objects.equals(jdbcType, "int")) {
             this.jdbcActualType = "INTEGER";
         }
-        if (Objects.equals(jdbcType, "text")) {
-            this.jdbcActualType = "VARCHAR";
+        if (Objects.equals(jdbcType, "tinyint")) {
+            this.jdbcActualType = "TINYINT";
+        }
+        if (Objects.equals(jdbcType, "smallint")) {
+            this.jdbcActualType = "INTEGER";
+        }
+        if (Objects.equals(jdbcType, "float")) {
+            this.jdbcActualType = "FLOAT";
         }
         if (Objects.equals(jdbcType, "double")) {
             this.jdbcActualType = "DOUBLE";
         }
+        if (Objects.equals(jdbcType, "char")) {
+            this.jdbcActualType = "CHAR";
+        }
         if (Objects.equals(jdbcType, "varchar")) {
             this.jdbcActualType = "VARCHAR";
         }
-        if (Objects.equals(jdbcType, "tinyint")) {
-            this.jdbcActualType = "TINYINT";
+        if (Objects.equals(jdbcType, "text")) {
+            this.jdbcActualType = "VARCHAR";
         }
         if (Objects.equals(jdbcType, "datetime")) {
             this.jdbcActualType = "TIMESTAMP";
         }
-        if (Objects.equals(jdbcType, "char")) {
-            this.jdbcActualType = "CHAR";
-        }
         if (Objects.equals(jdbcType, "timestamp")) {
             this.jdbcActualType = "TIMESTAMP";
-        }
-        if (Objects.equals(jdbcType, "float")) {
-            this.jdbcActualType = "FLOAT";
         }
         this.jdbcType = jdbcType;
     }

@@ -1,9 +1,9 @@
 {
   "INT":"Integer",
   "INTEGER" : "Integer",
-   "BIGINT" : "Long",
-    "SMALLINT" : "Short",
-   "FLOAT" : "Float",
+  "BIGINT" : "Long",
+  "SMALLINT" : "Short",
+  "FLOAT" : "Float",
   "DOUBLE": "Double",
   "NUMERIC" : "BigDecimal",
   "CHAR" : "String",
